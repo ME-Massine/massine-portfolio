@@ -43,29 +43,3 @@ Open [http://localhost:3000](http://localhost:3000) to view in the browser.
 ```bash
 npm run build
 ```
-
-## Deployment
-
-### Vercel (recommended)
-```bash
-npm install -g vercel
-vercel
-```
-
-### GitHub Pages
-```bash
-npm install gh-pages --save-dev
-# Add to package.json: "homepage": "https://ME-Massine.github.io/portfolio"
-# Add scripts: "predeploy": "npm run build", "deploy": "gh-pages -d build"
-npm run deploy
-```
-
-### Netlify
-Drag and drop the `build/` folder to [netlify.com/drop](https://app.netlify.com/drop)
-
-## Customization
-
-- **Colors**: Edit CSS variables in `public/index.html` (`--accent`, `--accent2`, `--accent3`)
-- **Projects**: Update the `projects` array in `src/components/Projects.jsx`
-- **Skills**: Update the `skillGroups` array in `src/components/Skills.jsx`
-- **Typing phrases**: Update the `phrases` array in `src/components/Hero.jsx`

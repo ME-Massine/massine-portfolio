@@ -1,7 +1,7 @@
 export default function Nav() {
   return (
     <nav className="nav">
-      <a className="nav-logo" href="#">MA_</a>
+      <a className="nav-logo" href="#hero">MA_</a>
       <ul className="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
