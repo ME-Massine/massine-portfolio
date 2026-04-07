@@ -20,7 +20,7 @@ export default function App() {
         <Contact />
       </main>
       <footer className="footer">
-        <span>© 2025 Massine Amakhtari — Built with precision.</span>
+        <span>© 2026 Massine Amakhtari — Backend Engineer</span>
       </footer>
     </div>
   );
